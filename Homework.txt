@@ -1,0 +1,20 @@
+void main()
+{
+	stage_options();//настройка окна и название консоли
+	cursor_options();//настройка курсора
+	name_variables();//именование переменных и констант
+	generate();//генерация
+	print();//вывод
+	installation_wall();//установка стен
+	definition_entry_exit();//определение точки входа и выхода
+	delete_enemy();//жеребьёвка для врагов
+	delete_heal();//жеребьёвка для лечения
+	set_color();//установить цвет обьектов
+	definition_hero();//определение местоположение гг
+	movement_hero();//перемещение гг
+	setting_infoBox();//установка инфо бокса
+	taking_coin();//получение монет
+	taking_heal();//получение лечения
+	taking_damage();//получение урона
+	check_exit();//проверка на выход
+}
